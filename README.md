@@ -3,7 +3,7 @@
 </p>
 
 <p align='center'>
-Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
+Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br> & [Naily RPC](https://github.com/nailyjs/core)
 </p>
 
 <br>
