@@ -3,7 +3,7 @@
 </p>
 
 <p align='center'>
-快速地<sup><em>Vitesse</em></sup> 创建 Web 应用
+快速地使用<sup><em>Vitesse & <a href="https://github.com/nailyjs/core">Naily RPC</a></em></sup> 创建 Web 应用
 <br>
 </p>
 
@@ -15,10 +15,6 @@
 
 <br>
 
-> **Note**: 本模板创建于 Vue 3 和 Vite 的早期过渡时期。目前，如果您正在寻求更好的 Vue 开发体验和更持续的维护，我们建议您使用 [Nuxt 3](https://nuxt.com) 来代替（它也可以根据需要使用 SPA 或 SSG）。本模板仍会作为参考缓慢地维护下去，但将不会有太多的更新。
-
-<br>
-
 <p align='center'>
 <a href="https://github.com/antfu-collective/vitesse/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
@@ -26,6 +22,8 @@
 <br>
 
 ## 特性
+
+- 🍿️ **类型安全的 rpc 服务器**: 后端使用implements关键字进行实现，前端只需要一个泛型类型来使其类型安全，就是这样🐮~
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - 就是快！
 

@@ -3,8 +3,7 @@
 </p>
 
 <p align='center'>
-Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a>
-<br>
+Mocking up full-stack app with <b>Vitesse & <a href="https://github.com/nailyjs/core">Naily RPC</a><br></b><sup><em>(speed)</em></sup>
 ⚠️ Currently the `unplugin-rpc` have not HMR support, so you need to restart the server after changing the RPC files. This will be fixed in the future.
 </p>
 
@@ -25,7 +24,7 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup> & <a href="htt
 
 ## Features
 
-- 🍿️ **Type-safe rpc server**: Back-end implementation, the front-end only requires a generic type to make the type safe
+- 🍿️ **Type-safe rpc server**: Back-end implementation, the front-end only requires a generic type to make the type safe，that's it~
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
 
