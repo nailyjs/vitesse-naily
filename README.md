@@ -25,7 +25,7 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup> & <a href="htt
 
 ## Features
 
-- 🔔 **Type-safe server**: Back-end implementation, the front-end only requires a generic type to make the type safe
+- 🍿️ **Type-safe rpc server**: Back-end implementation, the front-end only requires a generic type to make the type safe
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
 
