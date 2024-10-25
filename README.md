@@ -16,7 +16,7 @@ Mocking up full-stack app with <b>Vitesse & <a href="https://github.com/nailyjs/
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/antfu-collective/vitesse/blob/main/README.zh-CN.md">简体中文</a>
+<b>English</b> | <a href="https://github.com/nailyjs/vitesse-naily/blob/main/README.zh-CN.md">简体中文</a>
 <!-- Contributors: Thanks for getting interested, however we DON'T accept new translations to the README, thanks. -->
 </p>
 
