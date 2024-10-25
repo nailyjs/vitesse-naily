@@ -3,7 +3,7 @@
 </p>
 
 <p align='center'>
-快速地使用<em>Vitesse<sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a> 创建全栈应用
+快速地使用Vitesse<sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a> 创建全栈应用
 
 <br>
 
