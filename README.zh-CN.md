@@ -3,15 +3,14 @@
 </p>
 
 <p align='center'>
-快速地使用<sup><em>Vitesse<sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a></em></sup> 创建 Web 应用
+快速地使用<sup><em>Vitesse<sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a> 创建 Web 应用
+
+⚠️ 目前 `unplugin-rpc` 没有 HMR 支持，所以你需要在更改 RPC 文件后重新启动服务器。这将在未来得到解决。
 <br>
+
 </p>
 
 <br>
-
-<p align='center'>
-<a href="https://vitesse.netlify.app/">在线 Demo</a>
-</p>
 
 <br>
 
