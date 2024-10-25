@@ -16,10 +16,6 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup> & <a href="htt
 
 <br>
 
-> **Note**: This template is created during the early transition of Vue 3 and Vite. At this moment, if you are seeking for better Vue developer experience and more consistent maintenance, we recommend using [Nuxt 3](https://nuxt.com) instead (it also works perfectly with SPA or SSG as needed). This template still serves as a reference, but expect slower updates.
-
-<br>
-
 <p align='center'>
 <b>English</b> | <a href="https://github.com/antfu-collective/vitesse/blob/main/README.zh-CN.md">简体中文</a>
 <!-- Contributors: Thanks for getting interested, however we DON'T accept new translations to the README, thanks. -->
@@ -28,6 +24,8 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup> & <a href="htt
 <br>
 
 ## Features
+
+- 🔔 **Type-safe server**: Back-end implementation, the front-end only requires a generic type to make the type safe
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
 
