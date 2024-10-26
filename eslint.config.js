@@ -8,6 +8,7 @@ export default antfu(
     rules: {
       'ts/no-redeclare': 'off',
       'ts/method-signature-style': 'off',
+      'ts/no-namespace': 'off',
     },
   },
 )
