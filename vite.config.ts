@@ -16,7 +16,8 @@ import Shiki from '@shikijs/markdown-it'
 import WebfontDownload from 'vite-plugin-webfont-dl'
 import VueRouter from 'unplugin-vue-router/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
-import Rpc from 'unplugin-rpc'
+import Rpc from 'unplugin-rpc/vite'
+import { buildServer } from 'unplugin-rpc'
 
 export default defineConfig({
   resolve: {
@@ -27,7 +28,9 @@ export default defineConfig({
   },
 
   plugins: [
-    Rpc.vite(),
+    Rpc({
+      buildOnViteCloseBundle: false,
+    }),
 
     VueMacros({
       plugins: {
@@ -167,8 +170,16 @@ export default defineConfig({
     crittersOptions: {
       reduceInlineStyles: false,
     },
-    onFinished() {
-      generateSitemap()
+    entry: './frontend/main.ts',
+    async onFinished() {
+      await buildServer({
+        viteOptions: {
+          ssr: {
+            noExternal: [/^@nailyjs/],
+          },
+        },
+      })
+      generateSitemap({ outDir: './dist/frontend' })
     },
   },
 
