@@ -175,7 +175,7 @@ export default defineConfig({
       await buildServer({
         viteOptions: {
           ssr: {
-            noExternal: [/^@nailyjs/],
+            noExternal: true,
           },
         },
       })

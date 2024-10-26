@@ -11,15 +11,6 @@ importers:
 
   .:
     dependencies:
-      '@nailyjs/backend':
-        specifier: ^1.0.13
-        version: 1.0.13
-      '@nailyjs/ioc':
-        specifier: ^1.0.13
-        version: 1.0.13
-      '@nailyjs/rpc':
-        specifier: ^1.0.13
-        version: 1.0.13
       '@unhead/vue':
         specifier: ^1.10.0
         version: 1.10.0(vue@3.4.38(typescript@5.5.4))
@@ -60,6 +51,15 @@ importers:
       '@intlify/unplugin-vue-i18n':
         specifier: ^4.0.0
         version: 4.0.0(rollup@4.21.0)(vue-i18n@9.14.0(vue@3.4.38(typescript@5.5.4)))
+      '@nailyjs/backend':
+        specifier: ^1.0.13
+        version: 1.0.13
+      '@nailyjs/ioc':
+        specifier: ^1.0.13
+        version: 1.0.13
+      '@nailyjs/rpc':
+        specifier: ^1.0.13
+        version: 1.0.13
       '@shikijs/markdown-it':
         specifier: ^1.14.1
         version: 1.14.1
@@ -114,6 +114,9 @@ importers:
       pnpm:
         specifier: ^9.8.0
         version: 9.8.0
+      reflect-metadata:
+        specifier: ^0.2.2
+        version: 0.2.2
       rollup:
         specifier: ^4.21.0
         version: 4.21.0
