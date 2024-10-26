@@ -6,14 +6,7 @@
 快速地使用Vitesse<sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a> 创建全栈应用
 
 <br>
-
-⚠️ 目前 `unplugin-rpc` 没有 HMR 支持，所以你需要在更改 RPC 文件后重新启动服务器。这将在未来得到解决。
-
 </p>
-
-<br>
-
-<br>
 
 <p align='center'>
 <a href="https://github.com/nailyjs/vitesse-naily/blob/main/README.md">English</a> | <b>简体中文</b>

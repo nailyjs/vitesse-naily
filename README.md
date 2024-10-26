@@ -5,8 +5,6 @@
 <p align='center'>
 Mocking up full-stack app with <b>Vitesse<sup><em>(speed)</em></sup> & <a href="https://github.com/nailyjs/core">Naily RPC</a><br></b>
 
-⚠️ Currently the `unplugin-rpc` have not HMR support, so you need to restart the server after changing the RPC files. This will be fixed in the future.
-
 </p>
 
 <br>
