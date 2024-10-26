@@ -52,14 +52,14 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0(rollup@4.21.0)(vue-i18n@9.14.0(vue@3.4.38(typescript@5.5.4)))
       '@nailyjs/backend':
-        specifier: ^1.0.13
-        version: 1.0.13
+        specifier: ^1.0.14
+        version: 1.0.14
       '@nailyjs/ioc':
-        specifier: ^1.0.13
-        version: 1.0.13
+        specifier: ^1.0.14
+        version: 1.0.14
       '@nailyjs/rpc':
-        specifier: ^1.0.13
-        version: 1.0.13
+        specifier: ^1.0.14
+        version: 1.0.14
       '@shikijs/markdown-it':
         specifier: ^1.14.1
         version: 1.14.1
@@ -139,8 +139,8 @@ importers:
         specifier: ^0.18.2
         version: 0.18.2(@vueuse/core@11.0.1(vue@3.4.38(typescript@5.5.4)))(rollup@4.21.0)
       unplugin-rpc:
-        specifier: ^1.0.13
-        version: 1.0.13(esbuild@0.23.1)(postcss@8.4.41)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.2(@types/node@20.2.3)(terser@5.17.6))(yaml@2.5.0)
+        specifier: ^1.0.14
+        version: 1.0.14(esbuild@0.23.1)(postcss@8.4.41)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.2(@types/node@20.2.3)(terser@5.17.6))(yaml@2.5.0)
       unplugin-vue-components:
         specifier: ^0.27.4
         version: 0.27.4(@babel/parser@7.25.3)(rollup@4.21.0)(vue@3.4.38(typescript@5.5.4))
@@ -1444,14 +1444,14 @@ packages:
   '@mdit-vue/types@2.1.0':
     resolution: {integrity: sha512-TMBB/BQWVvwtpBdWD75rkZx4ZphQ6MN0O4QB2Bc0oI5PC2uE57QerhNxdRZ7cvBHE2iY2C+BUNUziCfJbjIRRA==}
 
-  '@nailyjs/backend@1.0.13':
-    resolution: {integrity: sha512-ExjnDn7nj9x01VDNVVhIuWiXsNL1s9pTLzuWHfU9T7EfuFdDfZCCgPYPerbrI522DGpJe41vFJwBwFF5M1VGWw==}
+  '@nailyjs/backend@1.0.14':
+    resolution: {integrity: sha512-FlJhWJfb+ZlY9LKdaKWv9hgUU8WPRapiAN63usQkFVJSU+Vkp9nfr5ZQV4lww3/U955mr+15eS9SzrfnxsgNPw==}
 
-  '@nailyjs/ioc@1.0.13':
-    resolution: {integrity: sha512-8oE/drqOMEVlGdRW5V/wJLGzfAm/JNW8muqFj185LohJZpVluyRoAWUymF9eq2lb/YG3LvXruYTQvgmnJ493JA==}
+  '@nailyjs/ioc@1.0.14':
+    resolution: {integrity: sha512-RkFhn0Q+mTmFAi8BFKpRrar7/Y7YB+GLytveRcuQsfAvI/AvSb3upFJYPt03BXLARcNcuCKJRrkZoFxWqppxZw==}
 
-  '@nailyjs/rpc@1.0.13':
-    resolution: {integrity: sha512-6EOnx4UCBgjPHhfjEHTxgByI8VZ8yTmmqQehzMdonlE+WXNcJlnOIDRejpigu3BuMT8HZnbC83ujnESzXW46lw==}
+  '@nailyjs/rpc@1.0.14':
+    resolution: {integrity: sha512-pFBfh5zZiryeHvorBD/wDbRChEIFrmLFVTV4rZiXU9Bup+wIQSCy4RFs9kd+WoPNsD0DAmVSX+sNsJEcd50XvA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -5639,8 +5639,8 @@ packages:
       webpack:
         optional: true
 
-  unplugin-rpc@1.0.13:
-    resolution: {integrity: sha512-ET2AXkAAa1qTjjet1qEy67SqOjyeDbhUUqCw5PNhJVWOlCrCfXe0AxP8WzGu37gn+MhYHGcgcQnY4va1GWNqgQ==}
+  unplugin-rpc@1.0.14:
+    resolution: {integrity: sha512-7v9TE8mOWqh6kuCOZG94hr+/IpOiUsrsGGzsCS5BFX7wjk4TUTBsyosXL/EHbzLplVb21QzTmkYgFqC4vciBmg==}
     peerDependencies:
       '@farmfe/core': '>=1'
       '@nuxt/kit': ^3
@@ -7407,18 +7407,18 @@ snapshots:
 
   '@mdit-vue/types@2.1.0': {}
 
-  '@nailyjs/backend@1.0.13':
+  '@nailyjs/backend@1.0.14':
     dependencies:
-      '@nailyjs/ioc': 1.0.13
+      '@nailyjs/ioc': 1.0.14
 
-  '@nailyjs/ioc@1.0.13':
+  '@nailyjs/ioc@1.0.14':
     dependencies:
       reflect-metadata: 0.2.2
 
-  '@nailyjs/rpc@1.0.13':
+  '@nailyjs/rpc@1.0.14':
     dependencies:
-      '@nailyjs/backend': 1.0.13
-      '@nailyjs/ioc': 1.0.13
+      '@nailyjs/backend': 1.0.14
+      '@nailyjs/ioc': 1.0.14
       axios: 1.7.7
       zod: 3.23.8
     transitivePeerDependencies:
@@ -12210,11 +12210,11 @@ snapshots:
       rollup: 4.21.0
       vite: 5.4.2(@types/node@20.2.3)(terser@5.17.6)
 
-  unplugin-rpc@1.0.13(esbuild@0.23.1)(postcss@8.4.41)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.2(@types/node@20.2.3)(terser@5.17.6))(yaml@2.5.0):
+  unplugin-rpc@1.0.14(esbuild@0.23.1)(postcss@8.4.41)(rollup@4.21.0)(typescript@5.5.4)(vite@5.4.2(@types/node@20.2.3)(terser@5.17.6))(yaml@2.5.0):
     dependencies:
-      '@nailyjs/backend': 1.0.13
-      '@nailyjs/ioc': 1.0.13
-      '@nailyjs/rpc': 1.0.13
+      '@nailyjs/backend': 1.0.14
+      '@nailyjs/ioc': 1.0.14
+      '@nailyjs/rpc': 1.0.14
       '@rollup/pluginutils': 5.1.3(rollup@4.21.0)
       '@swc/core': 1.7.39
       defu: 6.1.4
