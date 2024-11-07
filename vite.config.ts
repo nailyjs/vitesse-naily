@@ -27,6 +27,10 @@ export default defineConfig({
     },
   },
 
+  build: {
+    outDir: './dist/frontend',
+  },
+
   plugins: [
     Rpc({
       buildOnViteCloseBundle: false,
