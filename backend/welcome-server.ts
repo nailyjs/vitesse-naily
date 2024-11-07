@@ -8,8 +8,8 @@ export class WelcomeServerImpl implements WelcomeServer {
   sayHello() {
     this.toggle = !this.toggle
     return this.toggle
-      ? 'Hello, world! Click me to refetch?'
-      : 'Hello, vitesse! Click me to refetch.'
+      ? 'Hello, world! Click me to refetch~?'
+      : 'Hello, vitesse! Click me to refetch.~'
   }
 
   sayGoodbye() {

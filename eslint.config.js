@@ -1,14 +1,4 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import naily from '@nailyjs/eslint'
 
-export default antfu(
-  {
-    unocss: true,
-    formatters: true,
-    rules: {
-      'ts/no-redeclare': 'off',
-      'ts/method-signature-style': 'off',
-      'ts/no-namespace': 'off',
-    },
-  },
-)
+export default naily()

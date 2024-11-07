@@ -1,5 +1,5 @@
-import { useRequest } from '../utils/request'
 import { WelcomeServer } from '~common/welcome-protocol'
+import { useRequest } from '../utils/request'
 
 export function useWelcomeServer() {
   const client = useRequest()

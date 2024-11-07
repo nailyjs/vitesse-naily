@@ -22,6 +22,7 @@ function fetchTips() {
   welcome.request()
     .sayHello()
     .then(str => tips.value = str)
+    .catch(() => tips.value = 'Failed to fetch tips')
 }
 fetchTips()
 </script>
