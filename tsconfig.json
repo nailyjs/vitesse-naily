@@ -9,8 +9,8 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "paths": {
-      "~/*": ["backend/*"],
-      "~common/*": ["common/*"]
+      "~/*": ["frontend/*"],
+      "#/*": ["common/*"]
     },
     "resolveJsonModule": true,
     "types": [

@@ -1,5 +1,5 @@
+import { WelcomeServer } from '#/welcome-protocol'
 import { RpcController } from '@nailyjs/rpc'
-import { WelcomeServer } from '~common/welcome-protocol'
 
 @RpcController(WelcomeServer)
 export class WelcomeServerImpl implements WelcomeServer {
