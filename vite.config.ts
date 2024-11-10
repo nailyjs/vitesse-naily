@@ -32,15 +32,20 @@ export default defineConfig({
     outDir: './dist/frontend',
   },
 
+  // Disable esbuild when using swc
   esbuild: false,
 
   plugins: [
+    // https://github.com/nailyjs/core
     NailyRpc({
       build: {
         on: false,
       },
     }),
 
+    // Internal swc plugin, fork from https://github.com/unplugin/unplugin-swc
+    // - esbuild doesn't support `emitDecoratorMetadata` to reflect types in runtime, so we need it
+    // - unplugin-swc has some problems to import, so we forked it and buildin to the rpc plugin
     swc.vite(defaultSwcOptions),
 
     VueMacros({
