@@ -1,4 +1,3 @@
-// @ts-check
-import naily from '@nailyjs/eslint'
+import { nailyProxy } from '@nailyjs/eslint'
 
-export default naily()
+export default await nailyProxy()

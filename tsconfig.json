@@ -5,12 +5,12 @@
     "lib": ["DOM", "ESNext"],
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "paths": {
-      "~/*": ["frontend/*"],
-      "#/*": ["common/*"]
+      "~/*": ["./frontend/*"],
+      "#/*": ["./common/*"],
+      "@/*": ["./backend/*"]
     },
     "resolveJsonModule": true,
     "types": [
@@ -24,6 +24,7 @@
     "allowJs": true,
     "strict": true,
     "strictNullChecks": true,
+    "strictPropertyInitialization": false,
     "noUnusedLocals": true,
     "noEmit": true,
     "esModuleInterop": true,

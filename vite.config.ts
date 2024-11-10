@@ -5,8 +5,8 @@ import Vue from '@vitejs/plugin-vue'
 import LinkAttributes from 'markdown-it-link-attributes'
 import Unocss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import { buildServer } from 'unplugin-rpc'
-import Rpc from 'unplugin-rpc/vite'
+import { buildServer, defaultSwcOptions, swc } from 'unplugin-rpc'
+import NailyRpc from 'unplugin-rpc/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
 import Markdown from 'unplugin-vue-markdown/vite'
@@ -24,6 +24,7 @@ export default defineConfig({
     alias: {
       '~/': `${path.resolve(__dirname, 'frontend')}/`,
       '#/': `${path.resolve(__dirname, 'common')}/`,
+      '@/': `${path.resolve(__dirname, 'backend')}/`,
     },
   },
 
@@ -31,10 +32,16 @@ export default defineConfig({
     outDir: './dist/frontend',
   },
 
+  esbuild: false,
+
   plugins: [
-    Rpc({
-      buildOnViteCloseBundle: false,
+    NailyRpc({
+      build: {
+        on: false,
+      },
     }),
+
+    swc.vite(defaultSwcOptions),
 
     VueMacros({
       plugins: {

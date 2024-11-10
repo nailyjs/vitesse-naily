@@ -1,4 +1,4 @@
-import { WelcomeServer } from '#/welcome-protocol'
+import { WelcomeServer } from '#/welcome.protocol'
 import { useRequest } from '../utils/request'
 
 export function useWelcomeServer() {
