@@ -3,7 +3,7 @@ import { isClient } from '@vueuse/core'
 
 export function useRequest() {
   return createAxiosClient({
-    urlOrAxiosInstance: import.meta.env.PROD ? 'http://localhost:1000/rpc' : '/rpc',
+    urlOrAxiosInstance: '/rpc',
     ssr: !isClient,
   })
 }
