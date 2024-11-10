@@ -18,7 +18,9 @@ Mocking up full-stack app with <b>Vitesse<sup><em>(speed)</em></sup> & <a href="
 
 ## Features
 
-- 🍿️ **Type-safe rpc server**: Back-end implementation, the front-end only requires a generic type to make the type safe，that's it~
+- 🍿️ [Type-safe rpc server by naily.js & unplugin-rpc](https://github.com/nailyjs/core): Back-end implementation, the front-end only requires a generic type to make the type safe~
+
+- 📊 [TypeORM](https://typeorm.io): Typeorm with sqlite3, also can easily switch/add other ORM frameworks or databases.
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
 

@@ -16,7 +16,9 @@
 
 ## 特性
 
-- 🍿️ **类型安全的 rpc 服务器**: 后端使用implements关键字进行实现，前端只需要一个泛型类型来使其类型安全，就是这样🐮~
+- 🍿️ [使用unplugin-rpc + naily.js实现的完全类型安全的rpc后端](https://github.com/nailyjs/core): 后端使用implements关键字进行实现，前端只需要一个泛型类型来使其类型安全，就是这样🐮🍺~
+
+- 📊 [TypeORM](https://typeorm.io): 开箱即用的TypeORM + sqlite支持，也可以轻松切换到/添加别的ORM框架或数据库
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - 就是快！
 
