@@ -43,11 +43,11 @@ function deleteTodo(id: number): void {
 
     <div py-4 />
 
-    <div flex flex-col justify-center items-center>
-      <ol v-if="todoList.length" relative left-1>
-        <div v-for="(item, index) in todoList" :key="index" flex gap-x-2>
+    <div flex flex-col items-center>
+      <ol v-if="todoList.length" flex flex-col gap-y-2 relative left-1>
+        <div v-for="(item, index) in todoList" :key="index" class="item">
           <div flex items-center gap-x-4>
-            <div>{{ index + 1 }}.</div>
+            <div>{{ index + 1 }}</div>
             <li w="250px" p="x-4 y-2" border="~ rounded gray-200 dark:gray-700">
               <div text-left text-size-lg overflow-x-overlay>
                 {{ item.content }}
@@ -77,3 +77,10 @@ function deleteTodo(id: number): void {
     <div py-1 />
   </div>
 </template>
+
+<style scoped>
+.item:first-child {
+  position: relative;
+  left: 4px;
+}
+</style>
